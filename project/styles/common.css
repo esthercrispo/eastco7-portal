@@ -1,0 +1,141 @@
+/*common styles */
+body {
+    margin: 0px;
+}
+
+
+
+.skewed-header {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+}
+.skewed-header>.skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+.page-container>.content-wrapper {
+    width: 1000px;   
+}
+.page-container>.content-wrapper>#leader{
+    width: 350px;
+    margin: 25px;
+    float: left;
+}
+.skewed-header>.header-bg {
+   position: absolute;
+    top: 0;
+    background-color: #11122b;
+    height: 150px;
+    background-size: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0
+    
+}
+.skewed-header>.header-bg>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper{
+    background-color: #cea135;
+    color: #11122b;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(../images/admn.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact h1{
+    text-align: center;
+    color: #222;
+}
+.contact>.intro{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact>.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.form-box{
+    background: white;
+    width: 420px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.form-box label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-box textarea{
+    width: 100%;
+    height: 180px;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    background: #d4a017;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #b8860b;
+}
+.visit-btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.visit-btn:hover {
+    background: #b8860b;
+}
+.info-box{
+    background: #222;
+    color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.info-box h2{
+    color: #d4a017;
+}
